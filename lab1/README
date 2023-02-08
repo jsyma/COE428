@@ -1,0 +1,21 @@
+1. betterSort(int data[], first, last){
+
+		int i;
+		int j;
+		int temp;
+		int hold;
+
+		for (i = 0, i < size, i++){
+			temp = i;
+			if (temp >= first){
+				first = data[temp];
+				for (j = i + 1, j < size, j++){
+					if (first > data[j]){
+						hold = first;
+						first = last;
+						last = hold;
+					}		
+				}
+			}
+		}
+	}

@@ -1,0 +1,40 @@
+Summarize your lab:
+
+  Part 1:
+     Works  Yes 
+     
+  Part 2:
+     Works  Yes
+     
+  Part 3:
+     Works  No
+     
+***ANSWERS TO QUESTIONS***
+ Question 1:
+     Which hash table collision resolution method did you use
+     (eg. chaining or open addressing)? Explain your choice
+     briefly (less than 25 words).
+ YOUR ANSWER: I tried using open addressing where all elements are stored in the hash table itself
+              and there are no duplications of index and keys 
+ 
+ Question 2:
+       Which hash function (division or multiplication) did you use?
+       How did you convert a string into a number?
+ YOUR ANSWER:
+
+ 
+ 
+ 
+ Question 3:
+       Another legal XML tag not used in this lab is the
+       stand-alone tag.  This kind of tag
+       combines both a start-tag and end-tag in one.
+       It is identified with a '/' (slash) preceding the
+       final >.  (For example, the <foo/>
+       is a stand-alone tag that is self balancing.
+       
+       Describe briefly how
+       you would modify Part 3 to allow this kind of tag.
+       
+ YOUR ANSWER:I would add a part to look for whether the '/' would be present before the closing tag '>' and if it is present, then it would be added as valid. 
+  

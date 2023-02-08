@@ -1,0 +1,8 @@
+1. What I did accomplish: I accomplished to properly implement the metrics of insertion sort after creating the algorithm, I used both the command line and a text file and both of them sorted the array accordingly including metrics.
+
+   What I did not accomplish: I could not implement the merge Sort algorithm as I would have liked it, I tried many attempts using the recursive properties of the merge sort algorithms but I could never complete it. I compiled it a couple of times but would not return the array sorted, on my last attempt, i tried another way to implement the algorithm and it just states - a conflicting type for merge sort. As a result, I also could not implement the metrics for this algorithm.
+
+2. For complexity of the insertion sort algortihm, if n is the number of terms in the array, for both the comparaison and swap operations the equation for the worst case scenario is (n*(n-1))/2, and the equation is n + i, where i = 0 and it increases by 1 every time n increases starting from n = 2. For all operations, n > 1. For the best case scenario, if n > 1, for the comparaison operations, the equation for complexity is n - 1, the swap operation is 0 for the best case scenario and lastly, for the copy operations, the equation of complexity is 2n -2. This is all found through forming a relationship between the number of comparaison, swap and copy operations between the number of items in the array.
+
+For the complexity of the merge sort algortihm, I couldn't complete the algortihm so the complexity through testing was not found.
+	

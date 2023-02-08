@@ -1,0 +1,16 @@
+A D B
+B G E
+C F H
+D A G
+E H A
+F B E
+G G C
+H F D
+
+Your starting state is: C 
+
+State machine diagram is under a the StateDiagram.png file. 
+
+
+
+
